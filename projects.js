@@ -1,6 +1,25 @@
 // delete projects array if you want to make your own project data.
 
 let projects = [
+    
+    {
+        name: 'MERN Estate',
+        about: 'This project is designed to provide a comprehensive solution for managing real estate listings, featuring user authentication, Google sign-in, image storage via Firebase, profile updates, listing creation and management, advanced search capabilities, and a communication channel for user queries.',
+        tags:  '#fullstack, #backend, #javascript',
+        live: 'https://mern-estate-9i0q.onrender.com',
+        github: 'https://github.com/mr0nerd/MERN-Estate.git',
+        image: 'img/pro-1.png',
+        languages: {
+            html: '2%',
+            css: '2%',
+            javascript: '90%',
+            reactjs: '95%',
+            nodejs: '60%',
+            database: '40%',
+            tailwind: '40%',
+            other: '5%',
+        }
+    },
     {
         name: 'Simple Parallax blog site',
         about: 'This project is my first web development project! This project showcases a simple yet elegant blog website created using HTML and CSS. The highlight of this project is the implementation of a parallax effect using CSS to enhance the visual appeal of the site.',
@@ -11,24 +30,6 @@ let projects = [
         languages: {
             html: '90%',
             css: '80%',
-            javascript: '0%',
-            reactjs: '0%',
-            nodejs: '0%',
-            database: '0%',
-            tailwind: '0%',
-            other: '0%',
-        }
-    },
-    {
-        name: 'modern chair css',
-        about: 'This web page showcases a modern chair named "Telford chair" using HTML and CSS. Explore the details of the chair, choose its color, and immerse yourself in the interactive design.',
-        tags: '#html, #css, #frontend',
-        live: 'https://github.com/mr0nerd/modern-chair-css.git',
-        github: 'https://github.com/mr0nerd/modern-chair-css.git',
-        image: 'img/pro-2.png',
-        languages: {
-            html: '90%',
-            css: '90%',
             javascript: '0%',
             reactjs: '0%',
             nodejs: '0%',
